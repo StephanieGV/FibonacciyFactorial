@@ -1,7 +1,7 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+    
  */
 package javaapplication1;
 
@@ -24,10 +24,12 @@ import javax.swing.WindowConstants;
 import javax.swing.border.EmptyBorder;
 /**
  *
- * @author Alumno
+ * @author Stephanie Gonzalez
+   @version 1.0
  */
 
 public class FactorialyFibonacci implements ActionListener{
+    /*Se definen los atributos */
     public JFrame ventana;
     public JTextField Numero, Resultado;
     public JButton Fibonacci, Factorial;
@@ -47,7 +49,7 @@ public class FactorialyFibonacci implements ActionListener{
         ventana.setVisible(true);
     }
     
-    
+    /*Se declaran los recuadros a usar*/
     public void Compi(){
         Instruccion = new JLabel();
         Instruccion.setText("Escriba un numero aqui:");
@@ -77,7 +79,7 @@ public class FactorialyFibonacci implements ActionListener{
         cont.add(Factorial);
     }
     
-    
+    /*Declaran acciones a realizar*/
     @Override
     public void actionPerformed(ActionEvent e){
         
